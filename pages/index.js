@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
                     <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
                 </p>
             </section>
-            
+
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>
@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
                         <li className={utilStyles.listItem} key={id}>
                             {title}
                             <br />
-                            {id}
+                            {/* {id} */}
                             <br />
                             {date}
                         </li>
